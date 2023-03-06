@@ -1,0 +1,666 @@
+@charset "utf-8";
+
+/*basicly*/
+body{
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    margin: 0;
+}
+
+/*--------------------HEADER--------------------*/
+header{
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    background-color:#ffffff;
+}
+.header-logo{
+    border-radius: 3px;
+    margin-left : 10%;
+    margin-top: 20px;
+    width: 180px;
+    height: 60px;
+}
+.header-button-masuk{
+    border: 2px solid #191919;
+    color: #191919;
+    float: right;
+    /*button*/
+    width: 120px;
+    height: 40px;
+    border-radius:5px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 16px;
+    outline: none;
+    margin: 10px 10px;
+    margin-top: 30px;
+}
+.header-button-daftar{
+    background-color: #191919;
+    color: #ffffff;
+    border: none;
+    float: right;
+    /*button*/
+    width: 120px;
+    height: 40px;
+    border-radius:5px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 16px;
+    outline: none;
+    margin: 10px 10px;
+    margin-top: 30px;
+    margin-right: 10%;
+}
+.header-button-daftar:active{
+    transform: scale(1.1);
+}
+.header-button-masuk:active{
+    transform: scale(1.1);
+}
+.jarak{
+    height: 100px;
+    width: 100%;
+}
+/*--------------------HEADER SETELAH LOGIN--------------------*/
+.header-p-setelah-login{
+    margin-right: 10%;
+    margin-top: 30px;
+    float: right;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 30px;
+}
+.header-button-keluar-setelah-login{
+    border: 2px solid #191919;
+    color: #191919;
+    float: right;
+    /*button*/
+    width: 90px;
+    height: 40px;
+    border-radius:5px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 16px;
+    outline: none;
+    margin: 10px 10px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+/*--------------------NAV--------------------*/
+nav{
+    height: 50px;
+    width: 80%;
+    background-color:#ffffff00;
+    display: flex;
+    margin-left: 10%;
+}
+.nav-homelogo{
+    float: left;
+    align-items: center;
+    margin-top: 15px;
+}
+.nav-homelogo:active{
+    transform: scale(1.1);
+}
+.nav-nextlogo{
+    float: left;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.nav-text{
+    font-family:Arial;
+    font-weight: bold;
+    float: left;
+    align-items: center;
+    margin-top: 17px;
+    margin-left: 20px;
+}
+
+/*--------------------BANNER--------------------*/
+/*div*/.banner{
+    background-color: #191919;
+    height: 175px;
+    width: 80%;
+    height: 150px;
+    border: 2px solid #191919;
+    border-radius: 5px;
+    margin-left: 10%;
+}
+.banner-h1{
+    font-family:Arial;
+    font-weight: bold;
+    font-size: 35px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+}
+.banner-p{
+    font-family:Arial;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+/*--CONTENT-BANNER--*/
+.content-banner{
+    background-color: #191919;
+    width: 80%;
+    height: 150px;
+    margin-left: 10%;
+    border: 2px solid #191919;
+    border-radius: 5px;
+}
+.content-banner h1{
+    font-family:Arial;
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.content-banner p{
+    font-family:Arial;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.speaker{
+    display: flex;
+    margin-left: 40px;
+}
+.date{
+    display: flex;
+    margin-left: 40px;
+}
+.speaker-tengah{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.date-tengah{
+    margin-left: 35px;
+    margin-right: 15px;
+}
+/*--CONTENT-TAG--*/
+.content-tag{
+    align-items: center;
+    background-color: #ffffff00;
+    width: 80%;
+    height: 50px;
+    margin-left: 10%;
+    display: flex;
+}
+.content-tag img{
+    margin-left: 40px;
+}
+.content-tag p{
+    font-family:Arial;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    margin-right: 80px;
+}
+
+/*--------------------CONTENT--------------------*/
+.content{
+    width: 80%;
+    background-color: #ffffff;
+    border: 2px solid #bdbdbd;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+}
+.content-image{
+    margin-top: 15px;
+    margin-left : 15px;
+    margin-right: none;
+    margin-bottom: 15px;
+    border-radius:5px;
+}
+.content-harga-detailbtn{
+    width: 250px;
+    height: 125px;
+    margin-top: 15px;
+    margin-left : none;
+    margin-right: 15px;
+    border: 1px solid #191919;
+    border-radius:5px;
+    background-color:#ffffff00;
+    float: right;
+    text-align: center;
+}
+.content-harga-detailbtn h1{  
+    font-family:Arial;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    margin-top: 30px;
+}
+.content-harga-detailbtn button{
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    width: 150px;
+    height: 30px;
+    border-radius:5px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 16px;
+}
+.detail-button:active{
+    transform: scale(1.1);
+}
+.content-description{
+    width: 630px;
+    height: 125px;
+    margin-top: 10px;
+    margin-right: 15px;
+    border-radius:5px;
+    background-color:#ffffff00;
+    float: right;
+    text-align: left;
+}
+.content-description p{
+    font-family:Arial;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.content-description-tanggal{
+    float: left;
+    font-family:Arial;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+    text-align: left;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+.content-description-category{
+    height: max-content;
+    width: max-content;
+    float: left;
+    font-family:Arial;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+    text-align: left;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    background-color: #eaff00;
+}
+.content-description-level{
+    float: left;
+    font-family:Arial;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+    text-align: left;
+    margin-right: 50%;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    background-color: #00ff22;
+}
+.content-description-speaker{
+    float:left;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-right: 60%;
+    display: flex;
+    font-family:Arial;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000000;
+    text-align: left;
+}
+/*--CONTENT-DETAIL--*/
+.head{
+    font-family:Arial;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+/*-- PEMBICARA--*/
+.pembicara{
+    background-color: #ffffff;
+    border: 2px solid #bdbdbd;
+    height: 150px;
+    width: 775px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+}
+.speaker{
+    display:flex;
+}
+.speaker img{
+    margin-left: 40px;
+    
+}
+.speaker-name {
+    width: 400px;
+    font-family:Arial;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.speaker-profile{
+    float: left;
+    font-family:Arial;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-right: 5%;
+}
+
+/*--RINGKASAN WEBINAR--*/
+.ringkasan-webinar{
+    background-color: #ffffff;
+    border: 2px solid #bdbdbd;
+    height: 150px;
+    width: 775px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+}
+.ringkasan{
+    font-family:Arial;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 0px;
+    margin-left: 40px;
+}
+
+/*--SYARAT KETENTUAN--*/
+.syarat-ketentuan{
+    background-color: #ffffff;
+    border: 2px solid #bdbdbd;
+    height: 130px;
+    width: 775px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+}
+.syaratdanketentuan{
+    display: flex;
+}
+.syaratdanketentuan img{
+    margin-left: 40px;
+}
+.syaratdanketentuan p{
+    font-family:Arial;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+/*--DAFTAR--*/
+.daftar{
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius:5px;
+    position: fixed;
+    border:0px;
+    top: 120px;
+    right:10%;
+}
+.content-image{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    margin-right: 15px;;
+    border-radius:5px;
+}
+.harga-webinar{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    font-family: calibri;
+    font-size: 15px;
+}
+.nominal{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 30px;
+}
+.daftar-button{
+    width: 220px;
+    height: 40px;
+    border-radius:5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 18px;
+}
+.daftar-button:active{
+    transform: scale(1.1);
+}
+
+/*--------------------FOOTER--------------------*/
+footer{
+    height: 275px;
+    width: 100%;
+    background-color: #191919;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.footer-p-1{
+    font-family: calibri;
+    font-size: 30px;
+    font-weight:bold;
+    color:#FFFFFF;
+    line-height:10px;
+}
+.footer-p-2{
+    font-family: calibri;
+    font-size: 16px;
+    color:#7e7e7e;
+    text-align: center;
+}
+.footer-social-icons a{
+    width: 40px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#e6e3e3;
+    margin:20px 10px;
+    border-radius:50%;
+}
+.footer-social-icons{
+    display: flex; 
+}
+.footer-social-icons a:hover{
+    background-color:#191919;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    transition:all ease 0.5s;
+} 
+.footer-p-3{
+    font-family: calibri;
+    font-size: 15px;
+    color:#7e7e7e;
+    bottom:10px;
+}
+
+/*--------------------BUAT LOGIN--------------------*/
+.login-bg{
+    position: fixed;
+    background-color: #0F549B;
+}
+.login-frame{
+    height: 400px;
+    width: 30%;
+    border-radius: 5px;
+    border: 2px solid #191919;
+    box-shadow: 1px 1px 5px;
+    background-color: white;
+    visibility: hidden;
+    margin-top: 50px;
+    margin-left: 35%;
+}
+.login-frame-header{
+    width: 60%;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-left: 20%;
+    margin-top: 30px;
+    margin-bottom: 30px;    
+}
+.login-frame form{
+    margin-left: 20%;
+}
+.text-input-login{
+    display: block;
+    width: 60%;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid green;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.label-login{
+    font-family: sans-serif;
+}
+.login-frame-button{
+    background-color: #191919;
+    color: #ffffff;
+    border: none;
+    float: left;
+    /*button*/
+    width: 50%;
+    height: 40px;
+    border-radius:10px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+.login-frame-button:active{
+    transform: scale(1.1);
+}
+.daftar-alternative{
+    float: left;
+    font-family: calibri;
+    margin-top: 5px;
+    font-size: 18px;
+    margin-left: 125px;
+}
+#wrab:target .login-frame{
+    transition: 1s;
+    transform: translateY(100px);
+    position: relative;
+    visibility: visible;
+}
+#wrab:target .login-bg{
+    position:fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0,.5);
+}
+
+/*--------------------Admin--------------------*/
+/*Index-Admin*/
+.index-Admin{
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+}
+.indexAdmin-button-tambah{
+    background-color: #ffffff;
+    color: #191919;
+    border: 2px solid #191919;
+    float: right;
+    /*button*/
+    width: 90px;
+    height: 30px;
+    border-radius:5px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    margin-bottom: 15px;
+}
+/*Admin-Create*/
+.Admin-Create{
+    width:1000px;
+    margin-left: 10%;
+}
+.Admin-Create form{
+    margin-left: 40%;
+}
+.Admin-Create label{
+    font-family:Arial;
+    font-weight: bold;
+    display:inline-block;
+    width: 250px;
+}
+.Admin-Create p{
+    margin-bottom:5px;
+}
+.AdminCreate-Button1{
+    background-color: #ffffff;
+    color: #191919;
+    border: 2px solid #191919;
+    float: left;
+    /*button*/
+    width: 90px;
+    height: 25px;
+    border-radius:5px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    margin-left: 18%;
+}
+.AdminCreate-Button1:active{
+    transform: scale(1.1);
+}
+.AdminCreate-Button2{
+    background-color: #191919;
+    color: #ffffff;
+    border: none;
+    float: left;
+    /*button*/
+    width: 90px;
+    height: 25px;
+    border-radius:5px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 16px;
+    outline: none;
+    margin-left: 5%;
+}
+.AdminCreate-Button2:active{
+    transform: scale(1.1);
+}
+
