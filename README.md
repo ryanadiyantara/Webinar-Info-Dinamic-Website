@@ -3,7 +3,7 @@ In order to fulfill study project assignments at CCIT FTUI, creating a dynamic w
 
 ## Description
 Understanding Website Development Concepts:
-- Explore the basic concepts of website development, with a focus on the use of server-side programming languages such as PHP, Python, or Node.js.
+- Explore the basic concepts of website development, with a focus on the use of server-side programming languages.
 - Understand the use of databases to store and manage dynamic information such as event schedules, attendee registration, and speaker data.
 - Craft responsive and engaging user interfaces using a combination of HTML, CSS, and JavaScript.
 
